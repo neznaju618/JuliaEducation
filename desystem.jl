@@ -64,5 +64,5 @@ module DiffEquations
         system = DiffEquationSystem(VectorFunction(F), self.initcond, self.start)
         return solve(system, finish, N)
     end
-
+    
 end

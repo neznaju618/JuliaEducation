@@ -201,4 +201,5 @@ module LinearAlgebraMethods
         L, U = LUdecomposition(A)
         return inverseUT(U) * inverseLT(L)
     end
+    
 end
