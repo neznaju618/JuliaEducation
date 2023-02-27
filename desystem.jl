@@ -1,5 +1,8 @@
 module DiffEquations
 
+    export DiffEquationSystem, LinearDiffEquationWithConstCoefs, 
+    LinearDiffEquationWithVarCoefs, solve
+
     struct VectorFunction
         functions::Vector{<:Function}
     end
